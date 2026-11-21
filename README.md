@@ -20,3 +20,4 @@ mine, and staying still is the bravest line written.
 
 Poem: 217 Unicode code points, UTF-8, non-whitespace. Two local runs produce
 byte-identical `entry.txt`.
+Anchor: makefun anchor fc2b229f645445fc987473ecb07654c96a0cf3bf round 34161959, quoted in-session before the first write.

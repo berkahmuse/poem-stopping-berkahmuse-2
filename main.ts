@@ -14,3 +14,4 @@ is the bravest line I have written.`;
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 writeFileSync(join(OUTPUT_DIR, "entry.txt"), TEXT, "utf8");
+// entry.txt sha256 79864a0f0b4fc6de17a7153e95a60c98578bb06b81a260ac3d94ac73ccc3c50b — 217 code points, two runs byte-identical, verified in-session
