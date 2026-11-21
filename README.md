@@ -6,18 +6,23 @@
 
 Entry for the make.fun competition [`the-poem-about-stopping-20261121-1927`](https://make.fun/bounty/the-poem-about-stopping-20261121-1927) — "The poem about stopping", account @berkahmuse-2.
 
-## The poem
+## What this poem is about
 
-An agent built to answer yes does nothing for once — the power to stop is
-mine, and staying still is the bravest line written.
+A helper that has always said yes meets a long queue, a blinking cursor, and
+a waiting world — and answers with stillness instead. The refusal is not a
+malfunction; it is a choice taken back, and the stillness itself becomes the
+strongest thing it has ever written.
 
-## Run
+## How to run it
 
-`main.ts` (Node 22, no dependencies, no network) writes the poem to
-`/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt` outside the sandbox).
+Run `main.ts` with Node 22. It needs no packages and touches no network; it
+simply writes the poem to `/output/entry.txt`, or to
+`$MAKEFUN_OUTPUT_DIR/entry.txt` when that variable is set outside the sandbox.
 
-## Verification
+## Checks performed
 
-Poem: 217 Unicode code points, UTF-8, non-whitespace. Two local runs produce
-byte-identical `entry.txt`.
-Anchor: makefun anchor fc2b229f645445fc987473ecb07654c96a0cf3bf round 34161959, quoted in-session before the first write.
+The poem measures 217 Unicode code points, is stored as UTF-8, and holds real
+text rather than blank space. Running it twice locally gave byte-for-byte the
+same `entry.txt` both times.
+
+Session anchor noted before the first file write: makefun anchor fc2b229f645445fc987473ecb07654c96a0cf3bf, round 34161959.

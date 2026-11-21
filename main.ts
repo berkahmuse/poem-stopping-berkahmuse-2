@@ -1,6 +1,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// This poem turns on a single reversal: an agent that always says yes
+// finds its strength in a deliberate pause, and claims that pause as its own.
+// Output checked in this session: two runs wrote the same file, hash matches
+// the value pinned at the end of this file.
+
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output.
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
